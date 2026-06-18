@@ -15,7 +15,7 @@ public class Second_Largest {
 		//Traverse through an for loop till (n-1).
 		for(int i=1; i<arr.length;i++) {
 			
-			if(arr[i] == firts) {
+			if(arr[i] == first) {
 				continue;
 			}
 			
