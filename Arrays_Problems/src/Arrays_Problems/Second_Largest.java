@@ -15,6 +15,10 @@ public class Second_Largest {
 		//Traverse through an for loop till (n-1).
 		for(int i=1; i<arr.length;i++) {
 			
+			if(arr[i] == firts) {
+				continue;
+			}
+			
 			//Check for greatest element.
 			if(arr[i] > first) {
 				second = first; // May be second greatest element
@@ -23,7 +27,7 @@ public class Second_Largest {
 			else {
 				
 				//May be second greatest element After the first.
-				if(arr[i] < first && arr[i] > second) {
+				if(arr[i] > second) {
 					second = arr[i];
 				}
 			}
