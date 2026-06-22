@@ -32,9 +32,7 @@ public class Missing_Number {
 		
 		//NOTE:
 		//If input it too large or Big replace "int" Data type with "long" for better optimization.
-		//
-		//Added new3 line
-		.Missing_Number.peffmrfermdvjvnvjev
+		
 	}
 	
 
