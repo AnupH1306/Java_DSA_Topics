@@ -11,8 +11,13 @@ public class Remove_Duplicate {
 		int j=0;
 		int i=1;
 		
+		//Traverse upto n-1.
 		for(;i<arr.length;i++) {
+			
+			//Check Duplicate
 			if(arr[j] != arr[i]) {
+				
+				//Replace duplicate element
 				arr[++j] = arr[i];
 			}
 		}
