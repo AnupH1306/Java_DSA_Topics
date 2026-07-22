@@ -3,8 +3,8 @@ package Arrays_Problems;
 public class LongestSubArrayK {
 	
 	public static void main(String [] args) {
-		int k = 3;
-		int[] arr = {1,2,3,0,0,0,0,3,3};
+		int k = 6;
+		int[] arr = {1,2,3,0,0,0,0};
 		int maxLen = 0;
 		int sum = 0;
 		
@@ -12,6 +12,7 @@ public class LongestSubArrayK {
 		int i = 0;
 		while(i <arr.length && j < arr.length) {
 			sum += arr[j];
+			
 			while( i <= j&& sum > k) {
 				sum -= arr[i];
 				i++;
