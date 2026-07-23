@@ -42,6 +42,7 @@ public class LeftShiftbykpos {
 //		for(int i=arr.length-k;i<arr.length;i++) {
 //			arr[i] = temp[i-(arr.length-k)];
 //		}
+		
 		Optimal.optimalSolution(arr,0,k-1);
 		Optimal.optimalSolution(arr,k,arr.length-1);
 		Optimal.optimalSolution(arr, 0, arr.length-1);
