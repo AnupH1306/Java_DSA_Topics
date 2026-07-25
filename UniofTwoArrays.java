@@ -16,6 +16,7 @@ public class UniofTwoArrays {
 		
 		int i=0, j=0, k=0;
 		
+		
 		while(i < m && j < n) {
 			if(nums1[i] <= nums2[j]) {
 				if(al.size() ==0 || al.get(k-1) != nums1[i]) {
