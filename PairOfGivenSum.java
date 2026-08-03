@@ -40,9 +40,6 @@ public class PairOfGivenSum {
 			}
 		}
 		
-		if(j > arr.length) {
-		System.out.println("Target not exist");
-		}
 	}
 
 }
