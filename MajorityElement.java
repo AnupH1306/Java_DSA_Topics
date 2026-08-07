@@ -25,7 +25,6 @@ public class MajorityElement {
 		//If Already initialized element keep coming increment the cou ter
 		else if(arr[i] == el) {
 			cnt++;
-			
 		}
 		//If new element are appearing then decrement the counter.
 		else {
