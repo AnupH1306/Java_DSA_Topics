@@ -30,7 +30,7 @@ class Solution {
 public class Longest {
 	
 	public static void main(String [] args) {
-		int[] arr = {100, 4, 101, 2, 3 ,1};
+		int[] arr = {100, 4, 101,3 ,1};
 		Solution sol = new Solution();
 		int ans = sol.longestConsecutive(arr);
 		System.out.println(ans);
