@@ -65,7 +65,7 @@ public class SetMatrixToZero {
 //			}
 //		}
 		
-		
+		///Optimal Solution
 		 int col0 = 1;
 	        int n = matrix.length;
 	        int m = matrix[0].length;
